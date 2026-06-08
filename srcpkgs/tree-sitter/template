@@ -1,17 +1,17 @@
 # Template file for 'tree-sitter'
 pkgname=tree-sitter
-version=0.26.8
+version=0.26.9
 revision=1
 build_style=cargo
-hostmakedepends="clang"
 make_install_args="--path=crates/cli"
+hostmakedepends="clang"
 short_desc="Parser generator tool and incremental parsing library"
 maintainer="Érico Nogueira <ericonr@disroot.org>"
 license="MIT"
 homepage="https://tree-sitter.github.io"
 changelog="https://github.com/tree-sitter/tree-sitter/releases"
 distfiles="https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v${version}.tar.gz"
-checksum=e6826b7533ec3a885aba598377a6d20b5a6321ff3db76968e960c2352d3a5077
+checksum=8e14780500933f43d86662fcaa1b0ce99ebe9c220f4680bc929dce09a0e0cfc6
 make_check=no # tests require generating fixtures from remote repositories
 
 post_build() {
