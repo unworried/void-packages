@@ -1,6 +1,6 @@
 # Template file for 'opencode'
 pkgname=opencode
-version=1.17.13
+version=1.18.5
 revision=1
 archs="aarch64 x86_64"
 depends="ripgrep"
@@ -15,11 +15,11 @@ create_wrksrc=yes
 case "$XBPS_TARGET_MACHINE" in
 	x86_64)
 		_arch="x64"
-		checksum="157afa289d1a8d9372de0ce19ac726119b937a1f6b201808d46f06e4e59bb348"
+		checksum="cd4a2557a3d6550f27cb5c0257ebe8d73388bb34beda8b6121e6428a74c1eae2"
 		;;
 	aarch64)
 		_arch="arm64"
-		checksum="bbaccdd374aaab66cd97c7f8ad1c080aa393610fa5f80ee8dfc007f9500afaf9"
+		checksum="18b643362fdf0b8d5b8711b3e160dafb4e68d0bfc00288f56fd1298fd72da69d"
 		;;
 esac
 
