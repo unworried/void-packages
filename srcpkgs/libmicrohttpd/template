@@ -1,6 +1,6 @@
 # Template file for 'libmicrohttpd'
 pkgname=libmicrohttpd
-version=1.0.5
+version=1.0.9
 revision=1
 build_style=gnu-configure
 configure_args="
@@ -15,9 +15,9 @@ short_desc="Library embedding HTTP server functionality"
 maintainer="Duncaen <duncaen@voidlinux.org>"
 license="LGPL-2.1-or-later"
 homepage="https://www.gnu.org/software/libmicrohttpd/"
-changelog="https://git.gnunet.org/libmicrohttpd.git/plain/ChangeLog?h=v${version}"
+changelog="https://git.gnunet.org/gnunet/libmicrohttpd/file/ChangeLog.html"
 distfiles="${GNU_SITE}/libmicrohttpd/libmicrohttpd-${version}.tar.gz"
-checksum=b46d00f58efa6f497b97d2e782c4ee66301d412ddd855dd3068518b3a2cd3ea2
+checksum=6e9adc446b08083ec03d40317fb66ca6f2e03e4f6170aef33a6e59bb08db2012
 
 libmicrohttpd-devel_package() {
 	depends="${makedepends} ${sourcepkg}-${version}_${revision}"
